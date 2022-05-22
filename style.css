@@ -71,13 +71,3 @@
     font-weight: 400;
     color: var(--grayish-blue);
 }
-
-@media only screen and (max-width: 375px) {
-    .card-container {
-
-    }
-
-    .card-img img{
-        
-    }
-}
