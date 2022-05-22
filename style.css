@@ -33,8 +33,9 @@
 
 .card-container{
     width: 275px;
-    height: 460px;
+    height: 440px;
     background-color: var(--white);
+    border-radius: 15px;
 }
 
 .card-content{
@@ -44,6 +45,28 @@
 }
 
 .card-img img{
+    margin-bottom: 20px;
+}
+
+.card-img img{
     width: 245px;
     height: auto;
+    border-radius: 10px;
+}
+
+.card-body{
+    text-align: center;
+    width: 100%;
+}
+
+.card-body h3{
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--dark-blue);
+}
+
+.card-body p{
+    font-size: var(--regular-text);
+    font-weight: 400;
+    color: var(--grayish-blue);
 }
